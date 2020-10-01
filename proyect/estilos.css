@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{background: #e56317}
+body{width: 85%;margin: 1% auto;background-color: #f6f8f9;font-family: sans-serif, Helvetica, Arial;font-size: 16px;color:#404040}
+header{height: 185px;background-image: url('imagenes/fondo_1.jpg');padding-top: 15px}
+
+header h1{text-align: center;font-family: Arial;text-transform: uppercase;color: #fff; font-size: 60px; text-shadow: 0px 1px 0px #cccccc,0px 2px 0px #b5b5b5,0px 3px 0px #9b9b9b,0px 4px 0px #898989,0px 5px 0px #7b7b7b,0px 6px 0px #626262,0px 7px 0px rgba(0,0,0,0.5)}
+
+nav{text-align: center;width: 100%;height: 60px;background: #6d6d6d;border-bottom: 1px solid #a0a0a0;border-top: 1px solid #a0a0a0; margin: 2px}
+nav ul{list-style: none}
+nav ul li{display: inline-block;width: 20%;height: 40px}
+nav ul li a{color: #fff;font-size: 18px;font-family: verdana}
+nav ul li:hover{background: orange}
+
+
+aside{background: #f6f8f9;width: 25%;height: auto;vertical-align: middle;padding: 1px;border: 1px solid #a0a0a0;float:left}
+aside nav{background: #3686be;height: auto}
+aside nav ul{list-style: none}
+aside nav ul li{display: block;height: 50px;width: 80%;padding-top: 15px}
+aside nav h3{text-align: center;color: #35d116;font-size: 30px}
+
+
+#contenido{background: #f6f8f9;width: 74.1%;height: auto;vertical-align: middle;padding: 1px;/*border: 1px solid #a0a0a0;*/float:left}
+#titulo{margin-top: 20px;font-family:titulares_light;font-size: 18px}
+.cuadros{border: 1px lightgray solid;border-radius: 3px;background-color: white;text-align: center;padding: 5px 5px 5px 5px;box-shadow: 0px 0px 4px gray;margin-bottom: 5px}
+img{width: 80%;height: auto}
+hr{border:1px dashed orange}
+.titulo2{background-color: #ffa500;text-align: center;height: 45px;border-radius: 5px;margin-bottom: 5px}
+.titulo2 h3{color: #fff;font-family: verdana;font-size: 25px}
+#pie{background-color: #1d1d1d;height: 100px;text-align: center;color: #fff;padding-top: 50px;clear: both}
